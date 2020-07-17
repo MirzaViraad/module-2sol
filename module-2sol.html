@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+          "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+      }
+      * {
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+      }
+      #ct {
+        background-color: rgb(233, 102, 128);
+      }
+      #bt {
+        background-color: crimson;
+        color: white;
+      }
+      #st {
+        background-color: rgba(236, 196, 62, 0.753);
+      }
+      .title {
+        border: 1px solid black;
+        display: inline-block;
+        text-align: center;
+        width: 191px;
+        position: absolute;
+        top: -1px;
+        right: -1px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        font-weight: 500;
+      }
+
+      @media (min-width: 992px) {
+        h1 {
+          text-align: center;
+          margin: 70px;
+          font-size: 50px;
+        }
+        div {
+          position: relative;
+          background-color: rgba(250, 125, 9, 0.699);
+          width: 32%;
+          float: left;
+          border: 1px solid black;
+          margin-left: 10px;
+          padding: 0;
+        }
+
+        span {
+          font-size: 34px;
+        }
+        p {
+          padding: 60px 10px 10px 10px;
+        }
+      }
+      @media (min-width: 768px) and (max-width: 991px) {
+        h1 {
+          text-align: center;
+          margin: 50px;
+          font-size: 39px;
+        }
+        div {
+          border: 1px solid black;
+          margin: 10px;
+          position: relative;
+          background-color: rgba(250, 125, 9, 0.699);
+        }
+        span {
+          font-size: 28px;
+        }
+        .menu {
+          float: left;
+          width: 47%;
+          margin-bottom: 30px;
+        }
+        #ms {
+          clear: both;
+          width: 96%;
+        }
+
+        p {
+          padding: 60px 10px 10px 10px;
+        }
+      }
+      @media (max-width: 767px) {
+        div {
+          position: relative;
+          border: 1px solid black;
+          margin: 35px 30px;
+          background-color: rgba(250, 125, 9, 0.699);
+        }
+        span {
+          font-size: 20px;
+        }
+        p {
+          padding: 45px 10px 10px 10px;
+          font-size: 15px;
+        }
+        h1 {
+          text-align: center;
+          margin-top: 35px;
+          margin-bottom: 44px;
+          font-size: 35px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Our menu</h1>
+    <div class="menu">
+      <span class="title" id="ct">Chicken</span>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus
+        assumenda ad ducimus, sit iure cumque sunt culpa dolore voluptatum hic
+        ullam in, omnis voluptas cum debitis nihil aliquid necessitatibus
+        placeat! Rerum eveniet fugit ex. Facere perferendis alias enim molestias
+        tenetur.
+      </p>
+    </div>
+    <div class="menu">
+      <span class="title" id="bt">Beef</span>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus
+        assumenda ad ducimus, sit iure cumque sunt culpa dolore voluptatum hic
+        ullam in, omnis voluptas cum debitis nihil aliquid necessitatibus
+        placeat! Rerum eveniet fugit ex. Facere perferendis alias enim molestias
+        tenetur.
+      </p>
+    </div>
+    <div id="ms">
+      <span class="title" id="st">Sushi</span>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus
+        assumenda ad ducimus, sit iure cumque sunt culpa dolore voluptatum hic
+        ullam in, omnis voluptas cum debitis nihil aliquid necessitatibus
+        placeat! Rerum eveniet fugit ex. Facere perferendis alias enim molestias
+        tenetur.
+      </p>
+    </div>
+  </body>
+</html>
